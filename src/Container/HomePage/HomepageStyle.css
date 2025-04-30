@@ -1,0 +1,411 @@
+.rewards-container {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+
+
+.card-section {
+    background: white;
+    border-radius: 10px;
+    padding: 5px 24px;
+    padding-left: 40px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+
+.card-logo {
+    background: #1e3a8a;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.card-title {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.apply-link {
+    font-size: 13px;
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.info-label {
+    font-size: 13px;
+    color: #374151;
+}
+
+.info-value {
+    font-weight: bold;
+    color: #000;
+}
+
+.info-value.bold {
+    font-weight: 700;
+}
+
+.redeem-section a {
+    color: #2563eb;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.redeem-btn {
+    background: white;
+    border: none;
+    color: #2563eb;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+.offer-section {
+    background: white;
+    padding: 10px 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.offer-heading {
+    color: #1e3a8a;
+    font-size: 15px;
+}
+
+.offer-subtitle {
+    color: #111827;
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+
+.offer-cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.offer-card {
+    flex: 1 1 250px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    padding: 5px 30px 30px;
+    background: white;
+    position: relative;
+
+}
+
+.offer-tag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #1e3a8a;
+    color: white;
+    padding: 4px 12px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.offer-icon {
+    font-size: 20px;
+    text-align: right;
+    margin-bottom: 12px;
+}
+
+.offer-description {
+    font-size: 14px;
+    font-weight: 500;
+    color: #111827;
+    margin: 0;
+}
+.redeem-box {
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 32px;
+
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.redeem-title {
+    font-size: 20px;
+    color: #1e3a8a;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.redeem-divider {
+
+    border: none;
+    border-top: 1px solid #e5e7eb;
+}
+
+.redeem-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 40px;
+
+}
+
+.sub-head{
+    display: flex;
+justify-content: space-between;
+
+}
+
+.sub-head-right{
+    align-items: flex-end;
+}
+.sub-head-left {
+    align-items: flex-start;
+}
+
+.credit-label {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.sub-text {
+    font-size: 14px;
+    color: #4b5563;
+    margin: 0;
+}
+.right-content-1{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding-right: 10px;
+}
+.right-content-2{
+    font-size: 14px;
+    color: #4b5563;
+    margin: 0;
+}
+
+.input-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.input-label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.redeem-input-box {
+
+    border: 1px solid #d1d5db;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: right;
+    width:45%;
+
+}
+
+.equal-sign {
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.statement-box {
+    background-color: #e0efff;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 45%;
+
+    border-radius: 6px;
+    font-size: 15px;
+}
+.redeem-column-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.terms-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 14px;
+    align-items: baseline;
+
+}
+
+.balance-info {
+    font-size: 15px;
+    color: #111827;
+    text-align: right;
+    margin-bottom: 12px;
+}
+
+.conversion-rate {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.review-button {
+    background-color: #295ec7;
+
+    color: white;
+    border: none;
+    padding: 12px 60px;
+    font-size: 13px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.review-button:disabled {
+    background-color: #cbd5e1;
+    cursor: not-allowed;
+}
+
+.redeem-review-box {
+    background: white;
+    border-radius: 8px;
+    padding: 32px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+.review-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.review-summary {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 12px
+}
+.review-left{
+    width: 50%;
+    box-sizing: border-box;
+}
+.review-right {
+    width: 50%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.review-divider {
+    width: 1px;
+    height: 120px;
+    align-self: stretch;
+    background-color: #d1d5db;
+}
+
+.review-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+    margin-top: 10px;
+}
+.review-sub-left {
+    font-size: 14px;
+    color: #374151;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.review-sub {
+    font-size: 14px;
+    color: #374151;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.review-amount-blue {
+    color: #1e3a8a;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.review-amount-green {
+    color: #047857;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.review-balance p{
+    font-size: 15px;
+    color: #111827;
+    margin: 0;
+}
+
+.review-balance-bold {
+    font-weight: 700;
+    font-size: 17px;
+    color: #111827;
+    margin-top: 6px;
+}
+.review-button-section{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.review-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.go-back-btn {
+    background-color: #e0efff;
+    color: #1e3a8a;
+    border: none;
+    padding: 10px 100px;
+    font-size: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.confirm-button {
+    background-color: #295ec7;
+    color: white;
+    border: none;
+    padding: 10px 100px;
+    font-size: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
