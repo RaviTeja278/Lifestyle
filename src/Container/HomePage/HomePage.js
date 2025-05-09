@@ -43,15 +43,15 @@ function HomePage() {
                     <div className="card-info">
                         <div>
                             <p className="info-label">Available Rewards Points</p>
-                            <p className="info-value">150 points</p>
+                            <p className="info-value">{homeData.availableRewards} points</p>
                         </div>
                         <div>
                             <p className="info-label">Free Shipping</p>
-                            <p className="info-value">150/500</p>
+                            <p className="info-value">{homeData.availableRewards}/{homeData.shipping}</p>
                         </div>
                         <div>
                             <p className="info-label">Monthly Challenge</p>
-                            <p className="info-value bold">Shop 2x by Feb 28 for 50 Points!</p>
+                            <p className="info-value bold">{homeData.monthlyChallenge}</p>
                         </div>
                     </div>
 

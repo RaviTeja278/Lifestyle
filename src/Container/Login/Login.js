@@ -1,10 +1,12 @@
 
-import './Login.css';
-import {useSelector, useDispatch} from 'react-redux'
-import {useState} from "react";
 import {userNameValidation, userPasswordValidation} from "../../Reducers/reducer";
+import {useSelector, useDispatch} from 'react-redux'
+import {useState, useEffect} from "react";
+
+import './Login.css';
 
 import {Link} from "react-router-dom";
+import {userData} from "../../Reducers/loginReducer";
 
 function Login() {
 
@@ -16,17 +18,30 @@ function Login() {
   const [userInput, setUserInput] = useState('')
   const[userPassword, setUserPassword] = useState('')
     const [touched, setTouched] = useState({username: false, password: false})
+  const loginData = useSelector(state => state.login.loginData)
+  const [match, setMatch] = useState(true)
+
+  useEffect(() => {
+    dispatch(userData())
+  }, [])
+
 
 
   const userNameHandleChange = (event) => {
     setUserInput(event.target.value)
-
 
   }
 
   const onBlurUserNameHandleChange = (event) => {
       dispatch(userNameValidation(event.target.value))
       setTouched((prev) =>({...prev, username: true}))
+    if(userInput !== loginData.name){
+      setMatch(false)
+    }
+    else{
+      setMatch(true)
+    }
+
   }
 
   const passwordHandleChange = (event) => {
@@ -66,14 +81,11 @@ function Login() {
         />
         </div>
           {passwordErrorMessage && <p>{passwordErrorMessage}</p>}
+        {match?
 <Link to ='/Home'>
-          <button disabled = {!isFormValid }
-
-                  >Login</button>
-    </Link>
-
-
-
+          <button disabled = {!isFormValid }>Login</button>
+    </Link> : "UserName not found"
+        }
       </form>
       </div>
   );
