@@ -1,0 +1,38 @@
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.container-1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.brand-logo {
+    height: 40px;
+    margin-right:24px;
+    margin-bottom: 0;
+}
+
+.policy {
+    margin-right: 30px;
+    font-size: 13px;
+}
+.email{
+    font-size: 13px;
+}
+.email-logo {
+    margin-right: 10px;
+    margin-left: 60px;
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
